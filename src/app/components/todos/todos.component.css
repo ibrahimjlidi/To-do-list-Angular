@@ -36,7 +36,10 @@
 	font-size: 20px;
 	outline: none;
 }
-
+.delete:hover{
+    background-color: red;
+    color: #FFF;
+}
 .todo-submit {
 	display: block;
 	width: 100%;
@@ -46,7 +49,7 @@
 	outline: none;
 	background: none;
 
-	background-color: #FE4880;
+	background-color: #25c9df;
 	color: #FFF;
 	margin: 15px auto;
 
