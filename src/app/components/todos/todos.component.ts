@@ -13,16 +13,7 @@ inputTodo:string ="";
 
   ngOnInit():void {
     this.todos = [
-      {content:'First Name',
-      completed:false},
-      {content:'Second Name',
-      completed:true},
-      {content:'Third Name',
-      completed:false},
-      {content:'Fourth Name',
-      completed:true},
-      {content:'Fifth Name',
-      completed:false},
+      
     ];
   }
   toggleDone (id:number){
